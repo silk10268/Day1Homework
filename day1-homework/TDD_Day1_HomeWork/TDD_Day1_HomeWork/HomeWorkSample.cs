@@ -9,21 +9,14 @@ namespace Product
 {
     public class HomeWorkSample
     {
-        private int _count;
         private List<Product> _products;
         
-        public int Count
-        {
-            get { return _count; }
-            set { _count = value; }
-        }
         public List<Product> ProductCollection
         {
             get { return _products; }
             set { _products = value; }
         }
-
-        /// <summary>
+                /// <summary>
         /// Constructor
         /// </summary>
         public HomeWorkSample()
@@ -51,11 +44,11 @@ namespace Product
         {
             _products = products;
         }
-
         /// <summary>
         /// 
         /// </summary>
         /// <param name="count"></param>
+        /// <param name="field"></param>
         /// <returns></returns>
         public List<int> GetProductGroup(int count,string field)
         {
